@@ -1590,8 +1590,8 @@ section.contact-us .start-btn {
   bottom: auto;
 }
 .slider .slide-content {
-  margin: 0 30px;
-  padding: 20px;
+  margin: 0 30px 0 0;
+  padding: 26px;
   background: #FFFFFF;
   box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
   border-radius: 12px;
