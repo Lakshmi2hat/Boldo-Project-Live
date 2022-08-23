@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/css/app.min.css" media="all" />
   <link rel="stylesheet" href="assets/css/ie.min.css" media="all" />
   <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/img/favicon/favicon-16x16.png" />
+  <link rel="icon" href="assets/img/favicon.ico" />
   <title>Home page</title>
 </head>
 
@@ -18,7 +18,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light pe-sm-0">
         <div class="container">
-          <a class="navbar-brand d-flex m-0" href="/index.html">
+          <a class="navbar-brand d-flex m-0" href="index.html">
             <svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 16H17.0678C21.9511 16 25.9099 19.9588 25.9099 24.8421C25.9099 29.7255 21.9511 33.6842 17.0678 33.6842H0V16Z" fill="#0A2640" />
               <path d="M0 0.526337H11.3927C15.0552 0.526337 18.0243 3.4954 18.0243 7.15792C18.0243 10.8204 15.0552 13.7895 11.3927 13.7895H0V0.526337Z" fill="#0A2640" />
@@ -41,7 +41,7 @@
 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" href="about.html">About</a>
 
               </li>
               <li class="nav-item">
@@ -67,32 +67,32 @@
         </div>
       </div>
       <div class="grid-wrap mx-auto position-relative">
-        <div class="item">
+        <div class="item-img">
           <img src="./assets/img/about1.png" alt="about image" class="w-100">
         </div>
-        <div class="item">
+        <div class="item-img">
           <img src="./assets/img/about4.png" alt="about image" class="w-100">
         </div>
         <div class="item grid-item">
           <img src="./assets/img/about2.png" alt="about image" class="w-100">
         </div>
-        <div class="item">
+        <div class="item-img">
           <img src="./assets/img/about3.png" alt="about image" class="w-100">
         </div>
-        <div class="item">
+        <div class="item-img">
           <img src="./assets/img/about-image.png" alt="about image" class="w-100">
         </div>
       </div>
     </section>
     <!-- our story start -->
-    <section id="our-story" class="our-story pb-sm-5">
+    <section id="our-story" class="our-story p-0">
       <div class="container">
-        <div class="w-75 px-sm-4 mx-auto">
+        <div class="w-75 mx-auto">
           <h4 class="sub-head">
             Our Story
           </h4>
 
-          <h2 class="mb-3">Handshake infographic mass market crowdfunding iteration.</h2>
+          <h2 class="main-head">Handshake infographic mass market crowdfunding iteration.</h2>
 
           <p>Conversion angel investor entrepreneur first mover advantage. Handshake
             infographic mass market crowdfunding iteration. Traction stock user experience
@@ -110,22 +110,20 @@
         <div class="row">
           <h4 class="sub-head text-light text-center">Our numbers</h4>
 
-          <h2 class="text-center">Handshake infographic mass market
-            <br /> crowdfunding iteration.
-          </h2>
+          <h2 class="text-center main-head">Handshake infographic mass market crowdfunding iteration.</h2>
 
           <ul class="d-flex justify-content-evenly mt-5">
             <li class="text-light text-left">
-              <span class="countfect d-block mb-4" data-num="120">120</span>Cool feature
-              title
-            </li>
-            <li class="text-light text-left">
-              <span class="countfect d-block mb-4" id="num-rate" data-num="10.000">10.000</span>Cool
+              <span class="countfect d-block mb-1 mb-md-4" data-num="120">120</span>Cool
               feature title
             </li>
             <li class="text-light text-left">
-              <span class="countfect d-block mb-4" data-num="240">240</span>Cool feature
-              title
+              <span class="countfect d-block mb-1 mb-md-4" id="num-rate" data-num="10.000">10.000</span>Cool
+              feature title
+            </li>
+            <li class="text-light text-left">
+              <span class="countfect d-block mb-1 mb-md-4" data-num="240">240</span>Cool
+              feature title
             </li>
           </ul>
         </div>
@@ -140,7 +138,7 @@
             Our team
           </h4>
 
-          <h2 class="mb-3">The leadership team</h2>
+          <h2 class="mb-3 main-head">The leadership team</h2>
 
           <p>Conversion angel investor entrepreneur first mover advantage. Handshake
             infographic mass market crowdfunding iteration. Traction stock user experience
@@ -180,7 +178,7 @@
             Our values
           </h4>
 
-          <h2 class="mb-3">Things in we believe</h2>
+          <h2 class="mb-3 main-head">Things in we believe</h2>
 
           <p>Conversion angel investor entrepreneur first mover advantage. Handshake
             infographic mass market crowdfunding iteration. Traction stock user experience
@@ -190,8 +188,8 @@
           <div class="row">
             <div class="card mb-5 border-0">
               <div class="row no-gutters justify-content-center">
-                <div class="col-md-2">
-                  <img src="./assets/img/value1.png" class="card-img" alt="committed" width="150" height="151">
+                <div class="col-3">
+                  <img src="./assets/img/value1.png" class="card-img w-auto" alt="committed" width="150" height="151">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body p-0">
@@ -205,8 +203,8 @@
             </div>
             <div class="card mb-5 border-0">
               <div class="row no-gutters justify-content-center">
-                <div class="col-md-2">
-                  <img src="./assets/img/value2.png" class="card-img" alt="committed" width="150" height="151">
+                <div class="col-3">
+                  <img src="./assets/img/value2.png" class="card-img w-auto" alt="committed" width="150" height="151">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body p-0">
@@ -220,8 +218,8 @@
             </div>
             <div class="card mb-5 border-0">
               <div class="row no-gutters justify-content-center">
-                <div class="col-md-2">
-                  <img src="./assets/img/value3.png" class="card-img" alt="committed" width="150" height="151">
+                <div class="col-3">
+                  <img src="./assets/img/value3.png" class="card-img w-auto" alt="committed" width="150" height="151">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body p-0">
@@ -240,7 +238,7 @@
     <!-- Contact us start -->
     <section id="contact-us" class="contact-us">
       <div class="container">
-        <h3 class="text-center text-light w-75 mx-auto">An enterprise template to ramp up your company website</h3>
+        <h2 class="text-center text-light w-75 mx-auto main-head">An enterprise template to ramp up your company website</h2>
 
         <div class="d-flex align-items-center justify-content-center flex-wrap">
           <input type="text" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="basic-addon1">
