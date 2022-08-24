@@ -56,8 +56,8 @@
     <section id="banner" class="banner pb-sm-5 pt-0 mb-sm-4">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 mt-sm-3 pe-sm-0">
-            <h1 class="mt-md-5">Save time by building fast with Boldo Template </h1>
+          <div class="col-md-6 mt-sm-3 pe-sm-0">
+            <h1 class="mt-xl-5">Save time by building fast with Boldo Template </h1>
 
             <p>Funding handshake buyer business-to-business metrics iPad partnership.
               First mover advantage innovator success deployment non-disclosure.</p>
@@ -66,15 +66,24 @@
               <button class="explore btn btn-outline-secondary">Explore</button>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <div class="grid-container">
-              <img src="./assets/img/banner1.png" alt="graph1" class="grid-item item">
-              <img src="./assets/img/banner2.png" alt="graph2" class="grid-item">
-              <img src="./assets/img/banner3.png" alt="graph2" class="grid-item last-item">
+              <picture class="grid-item item">
+                <source media="(min-width:1290px)" srcset="./assets/img/banner1.png">
+                <img src="./assets/img/banner1-1280.png" alt="graph1" style="width:auto;">
+              </picture>
+              <picture class="grid-item">
+                <source media="(min-width:1290px)" srcset="./assets/img/banner2.png">
+                <img src="./assets/img/banner2-1280.png" alt="graph1" style="width:auto;">
+              </picture>
+              <picture class="grid-item last-item">
+                <source media="(min-width:1290px)" srcset="./assets/img/banner3.png">
+                <img src="./assets/img/banner3-1280.png" alt="graph1" style="width:auto;">
+              </picture>
             </div>
           </div>
-          <ul class="d-flex gap-4 justify-content-between flex-wrap">
-            <li class="d-flex">
+          <ul class="d-flex gap-4 justify-content-around flex-wrap">
+            <li class="d-flex align-items-center gap-2">
               <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 16.0001H14.3176C19.201 16.0001 23.1597 19.9588 23.1597 24.8422V24.8422C23.1597 29.7256 19.201 33.6843 14.3176 33.6843H0V16.0001Z" fill="#0A2640" />
                 <path d="M0 0.526367H9.47953C13.1421 0.526367 16.1111 3.49543 16.1111 7.15794V7.15794C16.1111 10.8205 13.1421 13.7895 9.47953 13.7895H0V0.526367Z" fill="#0A2640" />
@@ -144,7 +153,10 @@
 
         <div class="row justify-content-around">
           <div class="col-sm-3 text-light p-sm-0 mb-4 mb-sm-0">
-            <img src="./assets/img/cool-feature.png" alt="Cool Feature" class="img-fluid rounded-0 w-100">
+            <picture>
+              <source media="(min-width:768px)" srcset="./assets/img/cool-feature.png">
+              <img src="./assets/img/cool-feature-1280.png" alt="Cool Feature" class="img-fluid rounded-0">
+            </picture>
             <p>Cool feature title</p>
             <button class="btn btn-link text-light text-capitalize px-0">Explore Page
               <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +166,10 @@
             </button>
           </div>
           <div class="col-sm-3 text-light p-sm-0 mb-4 mb-sm-0">
-            <img src="./assets/img/even-cool-feature.png" alt="Cool Feature" class="img-fluid rounded-0 w-100">
+            <picture>
+              <source media="(min-width:768px)" srcset="./assets/img/even-cool-feature.png">
+              <img src="./assets/img/even-cool-feature-1280.png" alt="Cool Feature" class="img-fluid rounded-0">
+            </picture>
             <p>Even Cooler feature</p>
             <button class="btn btn-link text-light text-capitalize px-0">Explore Page
               <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +179,10 @@
             </button>
           </div>
           <div class="col-sm-3 text-light p-sm-0 mb-4 mb-sm-0">
-            <img src="./assets/img/cool-feature-title.png" alt="Cool Feature" class="img-fluid rounded-0 w-100">
+            <picture>
+              <source media="(min-width:768px)" srcset="./assets/img/cool-feature-title.png">
+              <img src="./assets/img/cool-feature-title-1280.png" alt="Cool Feature" class="img-fluid rounded-0">
+            </picture>
             <p>Cool feature title</p>
             <button class="btn btn-link text-light text-capitalize px-0">Explore Page
               <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,19 +199,24 @@
     <section id="connect-customer" class="connect-customer">
       <div class="container">
         <div class="row justify-content-around">
-          <div class="col-sm-5 position-relative">
-            <img src="./assets/img/customer1.png" alt="Conect customer" class="img-fluid rounded-0 w-100">
+          <div class="col-xl-5 col-md-6 position-relative">
+            <picture>
+              <source media="(min-width:768px)" srcset="./assets/img/customer1.png">
+              <img src="./assets/img/customer1-1280.png" alt="Connect Customer" class="img-fluid rounded-0">
+            </picture>
             <div class="graph position-absolute bg-white">
-              <img src="./assets/img/graph1.png" alt="line graph">
+              <picture>
+                <img src="./assets/img/graph1.png" alt="line graph">
+              </picture>
               <h6>30%</h6>
 
               <p>More income in June</p>
             </div>
           </div>
-          <div class="col-sm-5 second-section">
-            <h3 class="w-80 mt-5 section-head">We connect our customers with the best, and help them keep up-and stay open.</h3>
+          <div class="col-xl-5 col-md-6 second-section">
+            <h3 class="w-80 mt-xl-5 section-head">We connect our customers with the best, and help them keep up-and stay open.</h3>
 
-            <ul class="p-0 mt-sm-5">
+            <ul class="p-0 mt-xl-5 mt-sm-3">
               <li class="d-flex align-items-center">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="18" cy="18" r="18" fill="#0A2640" />
@@ -213,12 +236,12 @@
                 </svg>Business-to-consumer long tail.
               </li>
             </ul>
-            <button class="start-btn mt-sm-5">Start now</button>
+            <button class="start-btn mt-md-5">Start now</button>
           </div>
-          <div class="col-sm-5 mt-sm-5">
-            <h3 class="w-80 mt-5 section-head">We connect our customers with the best, and help them keep up-and stay open.</h3>
+          <div class="col-xl-5 col-md-6 mt-xl-5">
+            <h3 class="w-80 mt-xl-5 section-head">We connect our customers with the best, and help them keep up-and stay open.</h3>
 
-            <ul class="p-0 policy-list mt-5">
+            <ul class="p-0 policy-list mt-xl-5 mt-sm-3">
               <li class="active">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22.24 14.24C23.3658 13.1142 23.9983 11.5872 23.9983 9.99504C23.9983 8.40285 23.3658 6.87588 22.24 5.75004C21.1142 4.62419 19.5872 3.9917 17.995 3.9917C16.4028 3.9917 14.8758 4.62419 13.75 5.75004L7 12.5V21H15.5L22.24 14.24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -254,10 +277,15 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-5 position-relative mb-5">
-            <img src="./assets/img/customer2.png" alt="Conect customer" class="img-fluid rounded-0 w-100">
+          <div class="col-xl-5 col-md-6 position-relative mb-xl-5">
+            <picture>
+              <source media="(min-width:768px)" srcset="./assets/img/customer2.png">
+              <img src="./assets/img/customer2-1280.png" alt="Connect Customer" class="img-fluid rounded-0">
+            </picture>
             <div class="graph position-absolute bg-white policy-graph">
-              <img src="./assets/img/PieGraph.png" alt="line graph">
+              <picture>
+                <img src="./assets/img/PieGraph.png" alt="line graph">
+              </picture>
               <ul>
                 <li>35% - Agile Development</li>
                 <li>30% - Investor bandwidth</li>
@@ -278,7 +306,9 @@
           <div class="col-sm-4 slide-content">
             <p class="pe-sm-4">“Buyer buzz partner network disruptive non-disclosure agreement business”</p>
             <div class="d-flex title">
-              <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              <picture>
+                <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              </picture>
               <p>Albus Dumbledore <span>Manager @ Howarts</span>
               </p>
             </div>
@@ -287,7 +317,9 @@
             <p class="pe-sm-4">“Learning curve infrastructure value proposition advisor strategy user
               experience hypotheses investor.”</p>
             <div class="d-flex title">
-              <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              <picture>
+                <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              </picture>
               <p>Albus Dumbledore <span>Manager @ Howarts</span>
               </p>
             </div>
@@ -296,7 +328,9 @@
             <p class="pe-sm-4">“Release facebook responsive web design business model canvas seed money
               monetization.”</p>
             <div class="d-flex title">
-              <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              <picture>
+                <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              </picture>
               <p>Albus Dumbledore <span>Manager @ Howarts</span>
               </p>
             </div>
@@ -305,7 +339,9 @@
             <p class="pe-sm-4">“Learning curve infrastructure value proposition advisor strategy user
               experience hypotheses investor.”</p>
             <div class="d-flex title">
-              <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              <picture>
+                <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              </picture>
               <p>Albus Dumbledore <span>Manager @ Howarts</span>
               </p>
             </div>
@@ -313,7 +349,9 @@
           <div class="col-sm-4 slide-content">
             <p class="pe-sm-4">“Buyer buzz partner network disruptive non-disclosure agreement business”</p>
             <div class="d-flex title">
-              <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              <picture>
+                <img src="./assets/img/slide1.png" alt="testimony" width="58" height="58">
+              </picture>
               <p>Albus Dumbledore <span>Manager @ Howarts</span>
               </p>
             </div>
@@ -326,7 +364,9 @@
     <section id="RandD" class="RandD">
       <div class="container">
         <div class="row">
-          <img src="./assets/img/RandD.png" alt="Research and Development">
+          <picture>
+            <img src="./assets/img/RandD.png" alt="Research and Development">
+          </picture>
           <div class="col-sm-6">
             <h2 class="w-80 main-head">We connect our customers with the best, and help them keep up-and stay open.</h2>
           </div>
@@ -383,37 +423,51 @@
 
         <div class="col-sm-10 mx-auto">
           <div class="row">
-            <div class="col-sm-4 position-relative">
-              <img src="./assets/img/blog-img1.jpg" alt="our blog - Chandler Bing" width="300" height="209">
+            <div class="col-xl-4 col-sm-12 position-relative blog-content">
+              <picture>
+                <img src="./assets/img/blog-img1.jpg" alt="our blog - Chandler Bing" width="300" height="209">
+              </picture>
               <h5>Category <span>November 22, 2021</span>
               </h5>
 
               <p>Pitch termsheet backing validation focus release.</p>
               <h6>
-                <img src="./assets/img/blog1.png" alt="our blog - Chandler Bing">Chandler Bing
+                <picture>
+                  <img src="./assets/img/blog1.png" alt="our blog - Chandler Bing">
+                </picture>
+                Chandler Bing
               </h6>
 
             </div>
-            <div class="col-sm-4 position-relative">
-              <img src="./assets/img/blog-img.png" alt="our blog - Rachel Green" width="300" height="209">
+            <div class="col-xl-4 col-sm-12 position-relative blog-content">
+              <picture>
+                <img src="./assets/img/blog-img.png" alt="our blog - Rachel Green" width="300" height="209">
+              </picture>
               <h5>Category <span>November 22, 2021</span>
               </h5>
 
               <p>Seed round direct mailing non-disclosure agreement graphical user interface
                 rockstar.</p>
               <h6>
-                <img src="./assets/img/blog2.png" alt="our blog - Rachel Green">Rachel Green
+                <picture>
+                  <img src="./assets/img/blog2.png" alt="our blog - Rachel Green">
+                </picture>Rachel Green
               </h6>
 
             </div>
-            <div class="col-sm-4 position-relative">
-              <img src="./assets/img/blog-pic.png" alt="our blog - Monica Geller" width="300" height="209">
+            <div class="col-xl-4 col-sm-12 position-relative blog-content">
+              <picture>
+                <img src="./assets/img/blog-pic.png" alt="our blog - Monica Geller" width="300" height="209">
+              </picture>
               <h5>Category <span>November 22, 2021</span>
               </h5>
 
               <p>Beta prototype sales iPad gen-z marketing network effects value proposition.</p>
               <h6>
-                <img src="./assets/img/blog2.png" alt="our blog - Monica Geller">Monica Geller
+                <picture>
+                  <img src="./assets/img/blog2.png" alt="our blog - Monica Geller">
+                </picture>
+                Monica Geller
               </h6>
 
             </div>
@@ -442,7 +496,10 @@
       <div class="row">
         <div class="col-sm-4">
           <h3 class="d-flex align-items-center">
-            <img src="assets/img/logo-footer.png" alt="Logo">Boldo
+            <picture>
+              <img src="assets/img/logo-footer.png" alt="Logo">
+            </picture>
+            Boldo
           </h3>
 
           <p class="w-75">Social media validation business model canvas graphical user interface
